@@ -7,9 +7,10 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
   font_size: L
+  color: red
 
 # SEO
 
@@ -34,12 +35,12 @@ marketing:
 header:
   navbar:
     enable: true
-    align: r
+    align: c
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
