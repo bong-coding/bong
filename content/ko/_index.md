@@ -30,8 +30,8 @@ sections:
               brightness: 1
           position: right
           color: '#000'
-      - title: Lunch & Learn ☕️
-        content: Share your knowledge with the group and explore exciting new topics together!
+      - title: 알고리즘이 중점이 아닌 프로젝트 중점을 희망 💻
+        content: 오픈소스를 잘 활용하여 많은 프로젝트들을 만들어 보고 싶습니다.
         align: left
         background:
           image:
@@ -40,8 +40,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: Just opened last month!
+      - title: 같은 생각을 갖고 계신분이 있다면 연락바랍니다.
+        content: 아래 버튼을 누르면 평생 저와함께...
         align: right
         background:
           image:
@@ -51,9 +51,9 @@ sections:
           position: center
           color: '#333'
         link:
-          icon: graduation-cap
+          icon: phone
           icon_pack: fas
-          text: Join Us
+          text: 연락주세요
           url: ../contact/
     design:
       is_fullscreen: true
