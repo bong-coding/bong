@@ -14,8 +14,8 @@ main:
     url: intro
     weight: 30
   - parent: About
-    name: Project
-    url: project
+    name: Certification
+    url: certification
     weight: 40  
   - name: Experience
     weight: 50  
@@ -24,8 +24,8 @@ main:
     url: blog
     weight: 60
   - parent: Experience
-    name: Certification
-    url: certification
+    name: Project
+    url: project
     weight: 70
   - name: Contact
     url: contact
