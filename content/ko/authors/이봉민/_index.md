@@ -49,9 +49,9 @@ social:
   - icon: instargram
     icon_pack: fab
     link: https://www.instagram.com/e_bongmin/
-  - icon: google-scholar
+  - icon: linkedin
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://www.linkedin.com/feed/
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
