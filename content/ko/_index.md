@@ -25,7 +25,7 @@ sections:
         align: center
         background:
           image:
-            filename: welcome.jpg
+            filename: backend.jpg
             filters:
               brightness: 0.7
           position: right
@@ -35,7 +35,7 @@ sections:
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: na.jpg
             filters:
               brightness: 0.7
           position: center
@@ -45,7 +45,7 @@ sections:
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: call.jpg
             filters:
               brightness: 0.5
           position: center
