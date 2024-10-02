@@ -46,10 +46,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:xnddl456@jbnu.ac.kr'
-  - icon: instargram
+  - icon: fa-instargram
     icon_pack: fas
     link: https://www.instagram.com/e_bongmin/
-  - icon: linkedin
+  - icon: fa-linkedin
     icon_pack: fas
     link: https://www.linkedin.com/feed/
   - icon: github
