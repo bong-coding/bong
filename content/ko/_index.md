@@ -17,25 +17,6 @@ type: landing
         
 #         The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
 sections:
-  - block: people
-    content:
-      title: 프로필
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-      user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
-      sort_by: Params.last_name
-      sort_ascending: true
-    design:
-      show_interests: false
-      show_role: true
-      show_social: true
-
   - block: slider
     content:
       slides:
@@ -76,7 +57,7 @@ sections:
           url: ../contact/
     design:
       is_fullscreen: true
-      slide_height: '250px'
+      slide_height: '400px'
       loop: true
       interval: 3000
 
@@ -141,3 +122,5 @@ sections:
   #   design:
   #     columns: '1'
 ---
+## 인사말
+안녕하세요, 저는 전북대학교에 재학중인 이봉민입니다. 저는 현재 스프링부트와 네트워크에 대해서 공부를 하고 있는중입니다. 아직 프로젝트 코드를 복구하지 못해 업로드를 하지 못하는점 양해부탁드립니다. 그러나 빠른 시일내로 찾아 업데이트 할 예정입니다. 제가 가장 자신있는 언어는 c++이며, 백엔드 개발자 준비생입니다.
