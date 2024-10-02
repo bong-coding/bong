@@ -20,16 +20,16 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Welcome to the Wowchemy Group
-        content: Take a look at what we're working on...
+      - title: 봉의 개발일기
+        content: 백엔드  개발자를 준비하는 학부생 이봉민입니다.
         align: center
         background:
           image:
             filename: backend.jpg
             filters:
-              brightness: 0.7
+              brightness: 1
           position: right
-          color: '#666'
+          color: '#000'
       - title: Lunch & Learn ☕️
         content: Share your knowledge with the group and explore exciting new topics together!
         align: left
