@@ -17,6 +17,25 @@ type: landing
         
 #         The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
 sections:
+  - block: people
+    content:
+      title: 프로필
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Principal Investigators
+          - Researchers
+          - Grad Students
+          - Administration
+          - Visitors
+          - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: false
+      show_role: true
+      show_social: true
+
   - block: slider
     content:
       slides:
@@ -57,7 +76,7 @@ sections:
           url: ../contact/
     design:
       is_fullscreen: true
-      slide_height: '400px'
+      slide_height: '250px'
       loop: true
       interval: 3000
 
