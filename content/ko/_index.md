@@ -20,7 +20,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 봉의 개발일기
+      - title: 찾아주셔서 감사합니다.
         content: 백엔드  개발자를 준비하는 학부생 이봉민입니다.
         align: center
         background:
