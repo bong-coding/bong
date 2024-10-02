@@ -4,26 +4,29 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: About
+  - name: Hoome
+    url: /
     weight: 10
+  - name: About
+    weight: 20
   - parent: About
     name: Introduce
     url: intro
-    weight: 20
+    weight: 30
   - parent: About
     name: Project
     url: project
-    weight: 30  
-  - name: Experience
     weight: 40  
+  - name: Experience
+    weight: 50  
   - parent: Experience
     name: Blog
     url: blog
-    weight: 50
+    weight: 60
   - parent: Experience
     name: Certification
     url: certification
-    weight: 60
+    weight: 70
   - name: Contact
     url: contact
-    weight: 70
+    weight: 80
