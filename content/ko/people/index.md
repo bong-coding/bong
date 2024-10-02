@@ -14,6 +14,7 @@ sections:
           - 프로필
       sort_by: Params.last_name
       sort_ascending: true
+      text: "<p style='color: skyblue; font-size: 14px;'>자세히 보실려면 프로필을 눌러주세요.</p>"
     design:
       show_interests: false
       show_role: true
