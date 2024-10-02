@@ -1,45 +1,42 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: 이봉민
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: 봉 민
+last_name: 이
 
 # Username (this should match the folder name)
 authors:
-  - 吳恩達
+  - 이봉민
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Computer Of Science 
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: 전북대학교
+    url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 웹 프레임 워크 내부 관리 툴 개발
+  - API 설계
+  - 대용량 데이터, 트래픽을 고려한 서버 설계 
 
 education:
   courses:
     - course: PhD in Artificial Intelligence
       institution: Stanford University
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: 컴퓨터인공지능학부
+      institution: 전북대학교
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -48,10 +45,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
+    link: 'mailto:xnddl456@jbnu.ac.kr'
+  - icon: instargram
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://www.instagram.com/e_bongmin/
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
