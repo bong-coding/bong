@@ -15,7 +15,7 @@ main:
     weight: 30
   - parent: About
     name: Hobby
-    url: certification
+    url: tour
     weight: 40  
   - parent: About
     name: Blog
