@@ -1,17 +1,24 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
+title: [java] JVM Garbage Collector
+date: 2024-09-20
 image:
   focal_point: 'top'
 ---
-<a href="https://naver.com" class="btn btn-primary">블로그 구경하기</a>
+<a href="https://naver.com" class="btn btn-primary">블로그에서 확인하기</a>
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
 
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+Garbage Collector란?
+GC(가비지 수집기)는 애플리케이션의 동적 메모리 할당 요청을 자동으로 관리합니다.
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
+Garbage Collector가 하는 작업들
 
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+운영 체제에 메모리를 할당하고 반납합니다.
+애플리케이션이 요청할 때 해당 메모리를 애플리케이션에 전달합니다.
+해당 메모리의 어느 부분이 애플리케이션에서 아직 사용되고 있는지 확인합니다.
+애플리케이션에서 재사용할 수 있도록 사용되지 않은 메모리를 회수합니다.
+Java HotSpot 가비지 수집기는 이러한 작업의 효율성을 높이기 위해 다양한 기술을 사용합니다.
+
+자원을 효율적으로 사용하기 위해 힙영역을 세대별로 관리하여 Garbage가 될 가능성이 높은 영역을 집중관리합니다.
+여러 스레드를 사용하여 작업을 병렬화하거나 애플리케이션과 동시에 백그라운드에서 일부 장기 실행 작업을 수행합니다.
