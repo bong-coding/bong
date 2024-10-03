@@ -64,6 +64,9 @@ social:
   - icon: blog
     icon_pack: fas
     link: https://bong0920.tistory.com/
+  - icon: cv
+    icon_pack: ai
+    link: files/db.pdf
 
     
 # Link to a PDF of your resume/CV from the About widget.
