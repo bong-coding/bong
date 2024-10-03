@@ -27,17 +27,9 @@ main:
     name: Project
     url: pro
     weight: 60
-  - parent: Experience
-    name: Project(2)
-    url: proo
-    weight: 70
-  - parent: Experience
-    name: Project(3)
-    url: ex
-    weight: 80  
   - name: Contact
     url: contact
-    weight: 90
+    weight: 70
   - name : ex
     url: ex
-    weight: 100
+    weight: 80

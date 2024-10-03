@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Events
+title: 취미
 
 # Listing view
 view: compact

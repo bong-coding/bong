@@ -1,5 +1,5 @@
 ---
-title: People
+title: 프로필
 date: 2022-10-24
 
 type: landing
