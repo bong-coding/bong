@@ -1,5 +1,5 @@
 ---
-title: [java] JVM Garbage Collector
+title: "[java] JVM Garbage Collector"
 date: 2024-09-20
 image:
   focal_point: 'top'
