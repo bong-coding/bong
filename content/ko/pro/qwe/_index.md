@@ -31,14 +31,10 @@ date: 2022-12-10
 - 카드(업무)는 고유의 카드ID(번호)를 부여하여 식별하며 카드 신청일자, 한도금액,결제일자,카드종류,주민번호,계좌ID정보를 가짐
 
 ------------------테이블 구조------------------------------- 
-■ Customer (security_number, name, address, birthday, email, phone, job)
-: 기본키(security_number)
-■ Card (card_id, request_date, max_out, pay_date, card_type, security_number, account_id)
-: 기본키(card_id), 외래키(account_id)
-■ Account (account_id, account_type, balance, request_card, open_date, name, phone, email, security_number)
-: 기본키(account_id), 외래키(security_number)
-■ Transaction (transaction_id, account_id, transaction_date, transaction_type, information, amount, balance)
-: 기본키(transaction_id), 외래키(account_id)
+■ Customer (security_number, name, address, birthday, email, phone, job) : 기본키(security_number)
+■ Card (card_id, request_date, max_out, pay_date, card_type, security_number, account_id) : 기본키(card_id), 외래키(account_id)
+■ Account (account_id, account_type, balance, request_card, open_date, name, phone, email, security_number) : 기본키(account_id), 외래키(security_number)
+■ Transaction (transaction_id, account_id, transaction_date, transaction_type, information, amount, balance) : 기본키(transaction_id), 외래키(account_id)
 
 ■ 은행 업무 관리 데이터베이스 테이블
 - 고객 (주민번호, 이름, 주소, 생일, 이메일, 전화번호, 직업)
