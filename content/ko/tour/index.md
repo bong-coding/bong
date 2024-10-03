@@ -9,12 +9,13 @@ sections:
   - block: hero
     content:
       title: |
-        전북대 조경
+        전북대 
       image:
         filename: qqq.jpg
       text: |
         <br>     
-        학교 조경이 이뻐 따로 저장해놨습니다.
+        사진 맛도리
+        밑에서 이미지 슬라이더로 계속...
   - block: slider
     content:
       slides:
