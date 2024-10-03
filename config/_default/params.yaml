@@ -19,7 +19,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: ''
+    description: '봉의 개발일기'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
