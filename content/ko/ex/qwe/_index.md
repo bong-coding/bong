@@ -1,13 +1,15 @@
 ---
 title: 은행 데이터베이스
 date: 2024-03-29
-
+social:
+  - icon: cv
+    icon_pack: ai
+    link: files/cv.pdf
 ---
 
 저희 연구실에서 학부연구생을 모집하니, 혹시 아래의 내용 중 적어도 하나라도 관심있으신 분들은 메일로 연락주시거나 혹은 직접 찾아와주시면 감사드리겠습니다.
 
-<!-- PDF로 넘어가는 버튼 추가 -->
-<a href="/files/db.pdf" class="btn" target="_blank">PDF 보기</a>
+
 <!--more-->
 
 - 컨텐츠(웹툰/영상 등)에 관심이 있는 학생
