@@ -1,7 +1,7 @@
 ---
-title: "An example preprint / working paper"
+title: "은행 데이터베이스"
 authors:
-- admin
+- 이봉민
 date: "2019-04-07T00:00:00Z"
 doi: ""
 

@@ -1,8 +1,7 @@
 ---
-title: "An example journal article"
+title: "오목 만들기"
 authors:
-- admin
-- Robert Ford
+- 이봉민
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
