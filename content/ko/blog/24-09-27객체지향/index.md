@@ -2,7 +2,7 @@
 title: 객체지향의 원리
 date: 2024-09-27
 ---
-<a href="https://naver.com" class="btn btn-primary">블로그에서 확인하기</a>
+<a href="https://bong0920.tistory.com/2" class="btn btn-primary">블로그에서 확인하기</a>
 
 
 <!--more-->

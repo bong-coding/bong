@@ -4,7 +4,7 @@ date: 2024-09-20
 image:
   focal_point: 'top'
 ---
-<a href="https://naver.com" class="btn btn-primary">블로그에서 확인하기</a>
+<a href="https://bong0920.tistory.com/1" class="btn btn-primary">블로그에서 확인하기</a>
 
 
 <!--more-->
