@@ -17,19 +17,27 @@ main:
     name: Certification
     url: certification
     weight: 40  
+  - parent: About
+    name: Blog
+    url: blog
+    weight: 50  
   - name: Experience
     weight: 50  
   - parent: Experience
-    name: Blog
-    url: blog
+    name: Project(1)
+    url: project(1)
     weight: 60
   - parent: Experience
-    name: Project
-    url: project
+    name: Project(2)
+    url: project(2)
     weight: 70
+  - parent: Experience
+    name: Project(3)
+    url: project(3)
+    weight: 80  
   - name: Contact
     url: contact
-    weight: 80
+    weight: 90
   - name : ex
     url: ex
     weight: 100
