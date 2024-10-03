@@ -1,5 +1,5 @@
 ---
-title: Latest News
+title: 블로그
 
 # Listing view
 view: compact

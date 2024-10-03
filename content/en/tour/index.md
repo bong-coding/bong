@@ -1,48 +1,62 @@
 ---
-title: Tour
+title: 취미
 date: 2022-10-24
 
 type: landing
 
+  
 sections:
+  - block: hero
+    content:
+      title: |
+        전북대 
+      image:
+        filename: qqq.jpg
+      text: |
+        <br>     
+        사진 맛도리
+        밑에서 이미지 슬라이더로 계속...
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
-        align: center
+      - title: 
+        content: 
+        align: 
         background:
           image:
-            filename: coders.jpg
+            filename: icon.png
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
+      - title: 
+        content: 
         background:
           image:
-            filename: contact.jpg
+            filename: uv.png
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: 
+        content: 
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: q1.jpg
             filters:
               brightness: 0.5
           position: center
           color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
+      - title: 
+        content: 
+        background:
+          image:
+            filename: q2.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'    
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''

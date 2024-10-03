@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 찾아오시는 길
 date: 2022-10-24
 
 type: landing
