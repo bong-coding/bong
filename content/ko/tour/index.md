@@ -23,7 +23,7 @@ sections:
         align: 
         background:
           image:
-            filename: icon.jpg
+            filename: icon.png
             filters:
               brightness: 0.7
           position: right
