@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 봉의 개발일기 # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://bong-coding.github.io/bong/' # Website URL
 
 ############################
 ## LANGUAGE
