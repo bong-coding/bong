@@ -25,11 +25,11 @@ main:
     weight: 50  
   - parent: Experience
     name: Project(1)
-    url: ex
+    url: pro
     weight: 60
   - parent: Experience
     name: Project(2)
-    url: ex
+    url: proo
     weight: 70
   - parent: Experience
     name: Project(3)
