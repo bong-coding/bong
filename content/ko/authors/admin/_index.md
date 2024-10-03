@@ -77,8 +77,6 @@ email: ''
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - 프로필
 ---
 
 일단 대충 자기소개하는 내용 
