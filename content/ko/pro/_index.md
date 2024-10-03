@@ -1,5 +1,5 @@
 ---
-title: Notifications
+title: 프로젝트
 
 # Listing view
 view: community/custom_card

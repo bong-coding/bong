@@ -24,7 +24,7 @@ main:
   - name: Experience
     weight: 50  
   - parent: Experience
-    name: Project(1)
+    name: Project
     url: pro
     weight: 60
   - parent: Experience
