@@ -14,7 +14,7 @@ main:
     url: intro
     weight: 30
   - parent: About
-    name: Certification
+    name: Hobby
     url: certification
     weight: 40  
   - parent: About
