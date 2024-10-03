@@ -2,9 +2,10 @@
 title: "오목 만들기"
 authors:
 - 이봉민
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
 date: "2015-09-01T00:00:00Z"
 doi: ""
 
