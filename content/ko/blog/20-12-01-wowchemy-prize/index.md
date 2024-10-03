@@ -1,14 +1,61 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
-date: 2020-12-01
+title: 객체지향의 원
+date: 2024-09-27
 ---
 
-Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
+
 
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+추상화
+추상화 : 사물들의 공통된 특징으로 하나의 집합을 이루어 필요한 속성이나 행동을 추출하는 작업
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
+ 
 
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+추상화 장점
+
+추상화를 사용하지 않을 경우
+
+자동차의 종류가 추가 될 때마다 case문을 추가해야한다.
+
+//추상화를 사용하지 않을 경우
+//엔진 오일 교환
+switch(자동차 종류)
+  case 아우디 : // 엔진오일 교환 과정 기술
+  case 벤츠 : // 엔진오일 교환 과정 기술
+  case BMW : // 엔진오일 교환 과정 기술
+ 
+
+추상화를 사용할 경우
+
+자동차의 종류가 추가 될 때 불필요한 작업이 수반되지 않는다.
+
+큰 개념에서 동작을 요구하고, 작은 개념에서 실제 동작을 하는 방식(다형성).
+
+// 자동차로 추상화
+// 엔진 오일 교환
+void changeEngineOil(Car c){
+  c.chageEnginOil();
+}
+ 
+
+캡슐화
+캡술화 : 정보 은닉을 통해 낮은 결합도를 갖도록 하는 것
+
+ 
+
+왜 정보 은닉을 하면 결합도가 낮아질까?
+
+정보은닉은 나의 구체적인 동작을 숨긴다.
+
+구체적인 동작을 숨겼다는 것은, 외부에서 간섭할 수 없다는 것
+
+이는 결합도가 높아질 여지를 예방하는 것이다.
+
+ 
+
+무엇을 캡슐화 해야할까?
+
+구체적인 동작, 자주 변경될 가능성이 있는 것
+
+예) 엔진의 동작과정, 스택에서의 자료구조
