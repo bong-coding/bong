@@ -7,22 +7,22 @@ date: 2022-03-30
 
 Ⅰ) 기술 스택
 사용 언어
--TypeScript
+- TypeScript
 
 Client
--React V16
--React Router V5
--Redux
--Redux-saga
--Styled-components
--Socket.io-client
--Webpack
+- React V16
+- React Router V5
+- Redux
+- Redux-saga
+- Styled-components
+- Socket.io-client
+- Webpack
 
 Server
--Node.js - Express
--Sequelize
--Socket.io
--MySQL
+- Node.js - Express
+- Sequelize
+- Socket.io
+- MySQL
 
 Ⅱ)  주요 기능
 - 프로필 창에서 상태메시지, 배경사진, 프로필 사진 등을 변경할 수 있음
