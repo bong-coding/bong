@@ -1,10 +1,21 @@
 ---
-title: Tour
+title: 취미
 date: 2022-10-24
 
 type: landing
 
+  
 sections:
+  - block: hero
+    content:
+      title: |
+        전북대 조경
+      image:
+        filename: welcome.jpg
+      text: |
+        <br>
+        
+        학교 조경이 이뻐 따로 저장해놨습니다.
   - block: slider
     content:
       slides:
