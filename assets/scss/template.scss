@@ -7,6 +7,19 @@
 .cta-group {
   justify-content: center;
 }
+.nav-item {
+  &:hover {
+    background-color: red; 
+    color: white; 
+  }
+}
+
+.dropdown {
+  &:hover {
+    background-color: red; 
+    color: white; 
+  }
+}
 
 
 
