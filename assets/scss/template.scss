@@ -20,6 +20,12 @@
     color: white; 
   }
 }
+.dropdown-item {
+  &:hover {
+    background-color: red; 
+    color: white; 
+  }
+}
 
 
 
