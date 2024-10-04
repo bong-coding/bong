@@ -54,7 +54,7 @@ sections:
           icon: phone
           icon_pack: fas
           text: 연락주세요
-          url: ../contact/
+          url: contact
     design:
       is_fullscreen: true
       slide_height: '400px'
