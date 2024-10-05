@@ -1,6 +1,6 @@
 ---
-title: 은행 데이터베이스
+title: 이봉민
 date: 2024-03-29
-url_pdf: '/uploads/db.pdf'
+
 ---
-qwe
+<a href="https://www.jbnu.ac.kr/kor/" class="btn btn-primary"> 전북대 홈페이지</a>

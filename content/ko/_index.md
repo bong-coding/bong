@@ -112,7 +112,7 @@ sections:
       title: Project
       subtitle:
       text:
-      count: 3
+      count: 5
       filters:
         author: ''
         category: ''
@@ -124,6 +124,6 @@ sections:
       page_type: pro
     design:
       view: community/custom_card
-      columns: '2'
+      columns: '1'
         
 ---
