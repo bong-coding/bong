@@ -30,6 +30,6 @@ main:
   - name: Contact
     url: contact
     weight: 70
-  - name : ex
+  - name : university
     url: ex
     weight: 80
