@@ -14,7 +14,7 @@ sections:
       email: xnddl456@jbnu.ac.kr
       phone: 010-5714-1611
       address:
-        street: 경시도 성남시 수정구 수정로 319
+        street: 경기도 성남시 수정구 수정로 319
         country_code: KO
       coordinates:
         latitude: '37.452973'

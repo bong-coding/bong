@@ -2,7 +2,7 @@
 title: How object orientation works
 date: 2024-09-27
 ---
-<a href="https://bong0920.tistory.com/2" class="btn btn-primary">블로그에서 확인하기</a>
+<a href="https://bong0920.tistory.com/2" class="btn btn-primary">Read the blog</a>
 
 
 <!--more-->

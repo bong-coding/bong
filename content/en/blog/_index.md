@@ -1,5 +1,5 @@
 ---
-title: 블로그
+title: Blog
 
 # Listing view
 view: compact

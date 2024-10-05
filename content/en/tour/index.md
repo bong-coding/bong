@@ -14,8 +14,8 @@ sections:
         filename: qqq.jpg
       text: |
         <br>     
-        사진 맛도리
-        밑에서 이미지 슬라이더로 계속...
+        Photo flavoring
+        Continuing with the image slider below...
   - block: slider
     content:
       slides:
