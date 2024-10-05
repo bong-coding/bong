@@ -105,18 +105,28 @@ sections:
     design:
       view: card
       columns: '1' 
-      
+          
+
   - block: collection
     content:
-      title: project
-      text: ""
-      count: 5
+      title: Project
+      subtitle:
+      text:
+      count: 3
       filters:
-        folders:
-          - pro
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: pro
     design:
-      view: card
-      columns: '1'    
+      view: community/custom_card
+      columns: '2'
+    advanced:
+      css_style: "text-align: center;"    
       
        
 ---
