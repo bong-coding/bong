@@ -73,9 +73,10 @@ sections:
         C++ 
       image:
         filename: cpp.png
+        align: left
       text: |
         C++은 성능이 뛰어나며 메모리 제어가 가능해 최적화된 프로그램을 작성하기 좋은 언어입니다.
-      align: right    
+          
 
   - block: hero
     content:
