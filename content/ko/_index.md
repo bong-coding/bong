@@ -116,7 +116,7 @@ sections:
           - pro
         publication_type: 'article'
     design:
-      view: citation
+      view: community/custom_card
       columns: '1'    
       
        
