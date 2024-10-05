@@ -1,12 +1,12 @@
 ---
-title: 소켓통신 카카오톡 클론코딩
+title: Socket Communication KakaoTalk CloneCoding
 date: 2022-03-30
 ---
-### 코드 분실로 사진과 텍스트로 대체 하겠습니다.
- 소켓으로 양방향 통신을 배워 카카오톡을 만들어 보고 싶어 만들어봤습니다.
+### I lost the code, so I'll replace it with a photo and text.
+ I learned two-way communication with sockets and wanted to make a KakaoTalk app.
 
-Ⅰ) 기술 스택
-사용 언어
+Ⅰ) Technology Stack
+Languages used
 - TypeScript
 
 Client
@@ -24,12 +24,12 @@ Server
 - Socket.io
 - MySQL
 
-Ⅱ)  주요 기능
-- 프로필 창에서 상태메시지, 배경사진, 프로필 사진 등을 변경할 수 있음
-- 사용자들이 채팅방을 만들어 1:1 대화가 가능, 채팅이 온 것을 사용자가 알 수 있도록 읽지 않은 채팅 숫자를 화면에 표시함
-- 무한 스크롤을 이용하여, 채팅방에서 스크롤을 위로 올리며, 이전 채팅 나타남
-- 친구추가, 검색,차단, 채팅메뉴 설정
+Ⅱ) Main features
+- You can change your status message, background picture, profile picture, etc. in the profile window.
+- Allows users to create chat rooms to have 1:1 conversations, and displays the number of unread chats on the screen so that users know when they have chats.
+- Use infinite scrolling to scroll up in a chat room to reveal previous chats
+- Add friends, search, block, chat menu settings
 
-Ⅲ) 프로젝트 구현기술
-- CRA(create-react-app)를 통해 프로젝트를 진행하지 않고, Webpack을 이용하여 직접 개발환경을 설정하였습니다.
+Ⅲ) Project implementation technology
+- We didn't use CRA (create-react-app) to develop the project, but set up the development environment directly using Webpack.
  

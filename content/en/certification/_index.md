@@ -1,5 +1,5 @@
 ---
-title: 취미
+title: Hobby
 
 # Listing view
 view: compact

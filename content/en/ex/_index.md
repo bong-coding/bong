@@ -1,5 +1,5 @@
 ---
-title: 이봉민
+title: Bongmin Lee
 
 # Listing view
 view: community/custom_card

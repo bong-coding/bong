@@ -1,21 +1,21 @@
 ---
-title: 아두이노 자율주행
+title: Arduino Autonomous Driving
 date: 2022-01-01
 ---
 
-## 아두이노 자율주행...............
+## Arduino Autonomous Driving...............
 
-Ⅰ) 기술 스택  
-사용 언어:  
-- C언어
+Ⅰ) Technology Stack  
+Language used:  
+- C language
 
-Ⅱ) 주요 기능  
-- 휴대폰으로 원격제어 가능  
-- 초음파 센서로 감지하여 10미터 앞에 장애물이 있으면 90도 회전 후 1초 쉬고 다시 자율주행  
-- 장애물 감지 시 후진 후 90도 회전 가능
+Ⅱ) Key Features  
+- Can be remotely controlled by cell phone  
+- If there is an obstacle 10 meters in front of it detected by ultrasonic sensor, it will turn 90 degrees, rest for 1 second, and drive again.  
+- Can reverse and turn 90 degrees when detecting obstacles
 
-Ⅲ) 장비  
-- 준비물: L293D Motor Shield, DC Motor 2개, Servo Motor 1개, 초음파 센서 1개, 외부 전원 2개, 아두이노 우노
+Ⅲ) Equipment  
+- Required: L293D Motor Shield, 2 DC Motors, 1 Servo Motor, 1 Ultrasonic Sensor, 2 External Power Supply, Arduino Uno
 
 
 ## Arduino 코드

@@ -4,21 +4,21 @@ date: 2024-09-20
 image:
   focal_point: 'top'
 ---
-<a href="https://bong0920.tistory.com/1" class="btn btn-primary">블로그에서 확인하기</a>
+<a href="https://bong0920.tistory.com/1" class="btn btn-primary">Read the blog</a>
 
 
 <!--more-->
 
-Garbage Collector란?
-GC(가비지 수집기)는 애플리케이션의 동적 메모리 할당 요청을 자동으로 관리합니다.
+What is a Garbage Collector?
+Garbage Collector (GC) automatically manages dynamic memory allocation requests from applications.
 
-Garbage Collector가 하는 작업들
+Garbage Collector does the following
 
-운영 체제에 메모리를 할당하고 반납합니다.
-애플리케이션이 요청할 때 해당 메모리를 애플리케이션에 전달합니다.
-해당 메모리의 어느 부분이 애플리케이션에서 아직 사용되고 있는지 확인합니다.
-애플리케이션에서 재사용할 수 있도록 사용되지 않은 메모리를 회수합니다.
-Java HotSpot 가비지 수집기는 이러한 작업의 효율성을 높이기 위해 다양한 기술을 사용합니다.
+Allocates and returns memory to the operating system.
+Delivers that memory to applications as they request it.
+Determines what portion of that memory is still in use by the application.
+Reclaims unused memory so that it can be reused by the application.
+The Java HotSpot garbage collector uses a variety of techniques to increase the efficiency of these tasks.
 
-자원을 효율적으로 사용하기 위해 힙영역을 세대별로 관리하여 Garbage가 될 가능성이 높은 영역을 집중관리합니다.
-여러 스레드를 사용하여 작업을 병렬화하거나 애플리케이션과 동시에 백그라운드에서 일부 장기 실행 작업을 수행합니다.
+Generationally manages the heap region to focus on areas that are likely to become garbage in order to use resources efficiently.
+It uses multiple threads to parallelize tasks or perform some long-running tasks in the background at the same time as the application.

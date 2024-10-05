@@ -1,5 +1,5 @@
 ---
-title: 취미
+title: Hobby
 date: 2022-10-24
 
 type: landing
@@ -9,7 +9,7 @@ sections:
   - block: hero
     content:
       title: |
-        전북대 
+        Jeonbuk National University 
       image:
         filename: qqq.jpg
       text: |

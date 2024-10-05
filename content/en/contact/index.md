@@ -1,5 +1,5 @@
 ---
-title: 찾아오시는 길
+title: How to find us
 date: 2022-10-24
 
 type: landing
@@ -9,18 +9,18 @@ sections:
     content:
       title: Contact
       text: |-
-        백엔드 관련 팀프로젝트 인원을 구하시고자 연락을 주신다면 정말 감사하겠습니다.
-        DB설계 환영합니다.
+        We'd love to hear from you if you're looking for someone to join our backend team.
+        DB design is welcome.
       email: xnddl456@jbnu.ac.kr
       phone: 010-5714-1611
       address:
-        street: 경시도 성남시 수정구 수정로 319
+        street: 319, Sujeong-ro, Sujeong-gu, Seongnam-si, Gyeonggi-do, Republic of Korea
         country_code: KO
       coordinates:
         latitude: '37.452973'
         longitude: '127.145846'
       office_hours:
-        - '상시 환영'
+        - 'Always welcome'
       appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments

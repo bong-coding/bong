@@ -1,5 +1,5 @@
 ---
-title: 객체지향의 원리
+title: How object orientation works
 date: 2024-09-27
 ---
 <a href="https://bong0920.tistory.com/2" class="btn btn-primary">블로그에서 확인하기</a>
@@ -7,55 +7,55 @@ date: 2024-09-27
 
 <!--more-->
 
-추상화
-추상화 : 사물들의 공통된 특징으로 하나의 집합을 이루어 필요한 속성이나 행동을 추출하는 작업
+Abstraction
+Abstraction: grouping things together by their common features to extract the required properties or behaviors.
 
  
 
-추상화 장점
+Benefits of abstraction
 
-추상화를 사용하지 않을 경우
+If you don't use abstraction
 
-자동차의 종류가 추가 될 때마다 case문을 추가해야한다.
+We have to add a case statement every time a type of car is added.
 
-//추상화를 사용하지 않을 경우
-//엔진 오일 교환
-switch(자동차 종류)
-  case 아우디 : // 엔진오일 교환 과정 기술
-  case 벤츠 : // 엔진오일 교환 과정 기술
-  case BMW : // 엔진오일 교환 과정 기술
+//When not using abstraction
+//Change the oil in the engine
+switch(car type)
+  case Audi : // oil change process description
+  case Mercedes-Benz: // oil change process description
+  case BMW : // Oil change process description
  
 
-추상화를 사용할 경우
+When using abstractions
 
-자동차의 종류가 추가 될 때 불필요한 작업이 수반되지 않는다.
+No unnecessary work is involved when the type of car is added.
 
-큰 개념에서 동작을 요구하고, 작은 개념에서 실제 동작을 하는 방식(다형성).
+Requiring behavior from a larger concept and doing the actual behavior from a smaller concept (polymorphism).
 
-// 자동차로 추상화
-// 엔진 오일 교환
+// Car abstraction
+// change engine oil
 void changeEngineOil(Car c){
-  c.chageEnginOil();
+  c.changeEngineOil();
 }
  
 
-캡슐화
-캡술화 : 정보 은닉을 통해 낮은 결합도를 갖도록 하는 것
+Encapsulation
+Encapsulation: Hiding information to achieve low coupling
 
  
 
-왜 정보 은닉을 하면 결합도가 낮아질까?
+Why does hiding information lead to low coupling?
 
-정보은닉은 나의 구체적인 동작을 숨긴다.
+It hides your specific behavior.
 
-구체적인 동작을 숨겼다는 것은, 외부에서 간섭할 수 없다는 것
+Hiding your specific behavior means that it can't be interfered with from the outside.
 
-이는 결합도가 높아질 여지를 예방하는 것이다.
+This prevents room for increased coupling.
 
  
 
-무엇을 캡슐화 해야할까?
+What should I encapsulate?
 
-구체적인 동작, 자주 변경될 가능성이 있는 것
+Specific behavior, likely to change frequently
 
-예) 엔진의 동작과정, 스택에서의 자료구조
+Example) Engine behavior, data structure in the stack
