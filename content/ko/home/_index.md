@@ -101,6 +101,25 @@ sections:
       page_type: blog
     design:
       view: card
+      columns: '1'   
+      
+  - block: collection
+    content:
+      title: Project
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: pro
+    design:
+      view: community/custom_card
       columns: '1'    
       
        
