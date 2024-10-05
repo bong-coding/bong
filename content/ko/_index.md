@@ -104,6 +104,19 @@ sections:
       page_type: blog
     design:
       view: card
+      columns: '1' 
+      
+  - block: collection
+    content:
+      title: project
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - pro
+        publication_type: 'article'
+    design:
+      view: citation
       columns: '1'    
       
        
