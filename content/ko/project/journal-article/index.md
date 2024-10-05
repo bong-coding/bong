@@ -1,7 +1,7 @@
 ---
 title: "아두이노 자율주행"
-authors:
-- 이봉민
+# authors:
+# - 이봉민
 
 # author_notes:
 # - "Equal contribution"
