@@ -87,13 +87,7 @@ REST API 설계 프로젝트로 도서 관리 시스템을 만들었습니다. �
 
  <h2>기술스택</h2>
 <div>
-  <p>C++</p>
-</div>
-<div>
-  <p>Spring Boot</p>
-</div>
-<div>
-  <p>SQL Developer</p>
+  <p>C++, Spring Boot, SQL Developer</p>
 </div>
 
 
