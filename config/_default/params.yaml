@@ -14,8 +14,8 @@ appearance:
 
 params:
   theme:
-    primary_color: "#3498db"
-    secondary_color: "#2ecc71"
+    primary_color: "#d3d3d3"
+  
 
 
 # SEO
