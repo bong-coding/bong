@@ -12,6 +12,12 @@ appearance:
   font_size: L
   color: red
 
+params:
+  theme:
+    primary_color: "#3498db"
+    secondary_color: "#2ecc71"
+
+
 # SEO
 
 marketing:
@@ -29,6 +35,8 @@ marketing:
   verification:
     google: 'google9189119a9d8b6709.html'
     baidu: ''
+
+    
 
 # Site header
 

@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-// Center the CTA shortcode button
+
 .cta-group {
   justify-content: center;
 }
@@ -24,6 +24,13 @@
 .navbar .dropdown-menu .dropdown-item:hover {
   background-color: red !important;  
   color: white !important;           
+}
+
+$primary-color: #3498db;     
+$secondary-color: #2ecc71;
+
+body {
+  background-color: $primary-color;
 }
 
 
