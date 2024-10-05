@@ -15,8 +15,13 @@
 - 캘린더를 통한 시간 약속
 
 ### 1. 다국어 지원
-> 테마 두개중 하나 선택
-![클릭] 
+![language](https://github.com/user-attachments/assets/1d673f87-026a-4399-882d-ed84a7709bbb)
+
+### 2. 라이트/다크 테마
+![theme](https://github.com/user-attachments/assets/1fd9cb2c-19ed-4269-a24d-2a6f13682c97)
+
+### 3.캘린더
+![cal](https://github.com/user-attachments/assets/7afdca6a-7ae6-4ef3-ae78-540b5f70c34f)
 
   
 
