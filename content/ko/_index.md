@@ -68,35 +68,7 @@ sections:
       subtitle: 인사말
       text: 안녕하세요, 저는 전북대학교에 재학중인 이봉민입니다. 저는 현재 스프링부트와 네트워크에 대해서 공부를 하고 있는중이며, 가장 자신있는 언어는 C++입니다. 현재 usb이슈로 프로젝트 코드들을 업로드를 하지 못하여 사죄의 말씀을 드립니다. 최대한 빠른 시일내에 업로드 하겠습니다.
 
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  - block: hero
-    content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.    
+    
   
   # - block: markdown
   #   content:
