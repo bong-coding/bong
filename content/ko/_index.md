@@ -83,4 +83,23 @@ sections:
         filename: sql.png
       text: |
         SQL Developer는 Oracle에서 제공하는 데이터베이스 개발 도구로, SQL, PL/SQL 작업을 쉽게 수행할 수 있도록 도와줍니다. SQL 쿼리 실행, 데이터베이스 객체 관리, 디버깅 기능 등을 제공하여 데이터베이스 개발자 및 관리자에게 유용한 기능을 제공합니다.
+
+  - block: collection
+    content:
+      title: blog
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: blog
+    design:
+      view: card
+      columns: '1'      
 ---
