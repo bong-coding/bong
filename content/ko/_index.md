@@ -125,8 +125,5 @@ sections:
     design:
       view: community/custom_card
       columns: '2'
-    advanced:
-      css_style: "text-align: center;"    
-      
-       
+        
 ---
