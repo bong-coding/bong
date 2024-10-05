@@ -1,6 +1,6 @@
 ---
 title: 찾아오시는 길
-date: 2022-10-24
+date: 2024-10-05
 
 type: landing
 

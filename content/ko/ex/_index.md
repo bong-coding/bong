@@ -1,5 +1,5 @@
 ---
-title: 이봉민
+title: 전북대
 
 # Listing view
 view: community/custom_card

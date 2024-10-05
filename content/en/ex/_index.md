@@ -1,5 +1,5 @@
 ---
-title: Bongmin Lee
+title: Jeonbuk National University
 
 # Listing view
 view: community/custom_card
