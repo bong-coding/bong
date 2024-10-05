@@ -114,9 +114,8 @@ sections:
       filters:
         folders:
           - pro
-        publication_type: 'article'
     design:
-      view: community/custom_card
+      view: card
       columns: '1'    
       
        
