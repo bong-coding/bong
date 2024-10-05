@@ -86,7 +86,7 @@ REST API 설계 프로젝트로 도서 관리 시스템을 만들었습니다. �
  새로운 기술을 배우고, 이를 실무에 적용하여 가치 있는 결과를 만드는 것을 좋아합니다. 아직 부족한 부분이 많아 꾸준히 공부를 하고 있지만 좋게 봐주시면 감사하겠습니다.
 
  <h2>기술스택</h2>
-<div>
+<div style="text-align: justify;">
   <p>C++, Spring Boot, SQL Developer</p>
 </div>
 
