@@ -63,7 +63,7 @@ social:
     link: https://bong0920.tistory.com/
   - icon: cv
     icon_pack: ai
-    url: uploads/zxc.pdf
+    url: https://bong-coding.github.io/bong/uploads/zxc.pdf
     
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
