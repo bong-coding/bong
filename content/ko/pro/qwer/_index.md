@@ -8,18 +8,18 @@ date: 2024-09-20
 
 
 Ⅰ) 기술 스택
-프론트 프레임워크 : Vue.js
-상태관리 : Vuex
-라우팅 : Vue Router
-HTTP 통신 : Axios
-스타일 :CSS
-아이콘 : Font Awesome
-API : The Movie Database (TMDB) API
-패지키 매니저 : npm
-빌드도구 : Vue CLI
-📦추가 라이브러리 :
-Vue Toastification: 사용자에게 알림 메시지 제공
-Vuex Persisted State: 상태를 로컬 스토리지에 저장하여 새로고침 후에도 데이터 유지
+- 프론트 프레임워크 : Vue.js
+- 상태관리 : Vuex
+- 라우팅 : Vue Router
+- HTTP 통신 : Axios
+- 스타일 :CSS
+- 아이콘 : Font Awesome
+- API : The Movie Database (TMDB) API
+- 패지키 매니저 : npm
+- 빌드도구 : Vue CLI
+- 📦추가 라이브러리 :
+- Vue Toastification: 사용자에게 알림 메시지 제공
+- Vuex Persisted State: 상태를 로컬 스토리지에 저장하여 새로고침 후에도 데이터 유지
 
 Ⅱ)  주요 기능
 - 사용자 인증 및 로그인 기능 (인증 상태 유지,접근 제어)
@@ -37,19 +37,16 @@ Vuex Persisted State: 상태를 로컬 스토리지에 저장하여 새로고침
 - Git Flow 브랜치 전략 적용
 
 브랜치 구조:
-main : 배포 가능한 상태를 유지하는 브랜치
-develop : 개발 중인 기능들을 통합하는 브랜치
-feature : 새로운 기능을 개발하기 위한 브랜치
+- main : 배포 가능한 상태를 유지하는 브랜치
+- develop : 개발 중인 기능들을 통합하는 브랜치
+- feature : 새로운 기능을 개발하기 위한 브랜치
 
 -Pull Request
 
 -CI 구축 및 자동화
 
-빌드 및 테스트 워크플로우 :
-코드가 develop 브랜치에 병합될 때 자동으로 빌드와 테스트를 수행함.
-배포 워크 플로우 :
-main 브랜치에 변경 사항이 발생하면 자동으로 프로덕션 환경에 배포함.
-Slack 알림 연동 :
-워크플로우의 결과를 Slack 채널에 알림으로 전송하여 팀원들이 실시간으로 확인할 수 있도록 하였음.
+- 빌드 및 테스트 워크플로우 : 코드가 develop 브랜치에 병합될 때 자동으로 빌드와 테스트를 수행함.
+- 배포 워크 플로우 : main 브랜치에 변경 사항이 발생하면 자동으로 프로덕션 환경에 배포함.
+- Slack 알림 연동 : 워크플로우의 결과를 Slack 채널에 알림으로 전송하여 팀원들이 실시간으로 확인할 수 있도록 하였음.
 
  
