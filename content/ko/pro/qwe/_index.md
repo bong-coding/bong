@@ -3,7 +3,7 @@ title: 소켓을 사용한 사물함 관라
 date: 2021-12-10
 ---
 
-### 코드 분실로 사진과 텍스트로 대체 하겠습니다.
+### https://github.com/bong-coding/socketlocker_manage.git
 
 # 사물함 관리 소켓 프로그램
 소켓 통신을 통해 다중 사물함을 관리할 수 있는 서버/클라이언트 구조 예시입니다.
