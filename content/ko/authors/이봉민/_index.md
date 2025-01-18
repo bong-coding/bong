@@ -33,7 +33,7 @@ education:
   courses:
     - course: 컴퓨터인공지능학부
       institution: 전북대학교
-      year: 2024 - 2026
+      year: 0 - 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -85,15 +85,15 @@ user_groups:
 REST API 설계 프로젝트로 도서 관리 시스템을 만들었습니다. 이 프로젝트는 도서관이나 책 관리 애플리케이션을 위해 RESTful API를 설계하는 과정입니다. 여기서 주요한 기능은 도서 추가, 수정, 삭제, 조회 등이 있으며, 이를 구현하기 위해 HTTP 메서드와 URL을 활용한 REST API를 설계를 했습니다.
  새로운 기술을 배우고, 이를 실무에 적용하여 가치 있는 결과를 만드는 것을 좋아합니다. 아직 부족한 부분이 많아 꾸준히 공부를 하고 있지만 좋게 봐주시면 감사하겠습니다.
 
- <h2 style = "color: #FFF3C4;" >기술스택</h2>
+ <h2 style = "color: #FFB400 ;" >기술스택</h2>
 <div style="text-align: justify;">
-  <p>C++, Javascript, Java, Node.js, Express.js, MongoDB, SQL Developer</p>
+  <p style="color: #fee500;">C++, Javascript, Java, Node.js, Express.js, MongoDB, SQL Developer</p>
 </div>
- <h2 style = "color: #FFF3C4;">경력 및 자격증</h2>
+ <h2 style = "color: #FFB400 ;">경력 및 자격증</h2>
 <div style="text-align: justify;">
-  <p>- 토익 895</p>
-  <p>- 네트워크 관리사2급</p>
-  <p>- ITQ 마스터 및 한글</p>
+  <p style="color: #fee500;">- 토익 895</p>
+  <p style="color: #fee500;">- 네트워크 관리사2급</p>
+  <p style="color: #fee500;">- ITQ 마스터 및 한글</p>
 </div>
 
 
