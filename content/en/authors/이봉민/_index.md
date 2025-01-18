@@ -33,7 +33,7 @@ education:
   courses:
     - course:  Computer Science and Artificial Intelligence
       institution: Jeonbuk National University
-      year: 2024 - 2026
+      year: 0 - 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -85,9 +85,16 @@ He has been working with JavaScript, Python, and Node.js through various project
 For my REST API design project, I created a book management system. This project involves designing a RESTful API for a library or book management application. The main functions are adding, modifying, deleting, and viewing books, and we designed a REST API utilizing HTTP methods and URLs to implement them.
  I love learning new technologies and applying them in practice to create valuable results. I'm still a work in progress, but I hope you'll like it.
 
- <h2>Technology</h2>
+ <h2 style = "color: #FFB400 ;" >Technology</h2>
 <div style="text-align: justify;">
-  <p>C++, Spring Boot, SQL Developer</p>
+  <p style="color: #fee500;">C++, Javascript, Java, Node.js, Express.js, MongoDB, SQL Developer</p>
 </div>
+ <h2 style = "color: #FFB400 ;">Experience and Certifications</h2>
+<div style="text-align: justify;">
+  <p style="color: #fee500;">- Toeic 895</p>
+  <p style="color: #fee500;">- Network Advisor 2</p>
+  <p style="color: #fee500;">- ITQ Master and  Information Technology Qualification</p>
+</div>
+
 
 
