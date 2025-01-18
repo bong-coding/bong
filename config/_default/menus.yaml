@@ -13,10 +13,10 @@ main:
     name: Introduce
     url: intro
     weight: 30
-  - parent: About
-    name: Hobby
-    url: tour
-    weight: 40  
+  # - parent: About
+  #   name: Certification
+  #   url: tour
+  #   weight: 40  
   - parent: About
     name: Blog
     url: blog
@@ -30,6 +30,6 @@ main:
   - name: Contact
     url: contact
     weight: 70
-  - name : university
+  - name : University
     url: ex
     weight: 80
