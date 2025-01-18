@@ -9,20 +9,20 @@
 }
 .nav-item {
   &:hover {
-    background-color: red; 
+    background-color: #45f3ff; 
     color: white; 
   }
 }
 
 .dropdown {
   &:hover {
-    background-color: red; 
+    background-color: #45f3ff; 
     color: white; 
   }
 }
 
 .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: red !important;  
+  background-color: #45f3ff !important;  
   color: white !important;           
 }
 
