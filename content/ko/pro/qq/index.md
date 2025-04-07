@@ -12,20 +12,20 @@ date: 2025-04-02
 
 ## 💡 주요 학습 주제
 
-### ✅ Search (탐색 알고리즘)
+### ✔️ Search (탐색 알고리즘)
 - DFS / BFS / UCS / A*  
 - 게임 트리 탐색 (Minimax, Alpha-Beta Pruning)
 
-### ✅ Markov Decision Processes (MDP)
+### ✔️ Markov Decision Processes (MDP)
 - 가치 반복 (Value Iteration), 정책 반복 (Policy Iteration)
 
-###  확률 및 추론
+### ⏳ 확률 및 추론
 - Bayes Rule, Hidden Markov Model (HMM), Particle Filtering
 
-###  강화학습 (Reinforcement Learning)
+### ⏳ 강화학습 (Reinforcement Learning)
 - Q-learning, Exploration vs Exploitation
 
-###  머신러닝 기초
+### ⏳ 머신러닝 기초
 - Naive Bayes, Perceptron, 간단한 Neural Network 소개
 
 ---
