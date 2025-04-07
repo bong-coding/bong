@@ -76,11 +76,19 @@ date: 2025-04-02
 
 ### 실행방법
 
+기본 게임 실행
 ```bash
 python pacman.py
-**특정 레이아웃 실행** python pacman.py -l mediumClassic
-**알고리즘 사용** python pacman.py -l mediumMaze -p SearchAgent -a fn=depthFirstSearch
-**A* 휴리스틱사용** python pacman.py -l mediumMaze -p SearchAgent -a fn=aStarSearch,heuristic=manhattanHeuristic
 ```
-
-
+특정 레이아웃에서 실행
+```bash
+python pacman.py -l mediumClassic
+```
+특정 알고리즘 사용하는 에이전트 실행(EX: DFS)
+```bash
+python pacman.py -l mediumMaze -p SearchAgent -a fn=depthFirstSearch
+```
+A* 알고리즘 + 휴리스틱 사용
+```bash
+python pacman.py -l mediumMaze -p SearchAgent -a fn=aStarSearch,heuristic=manhattanHeuristic
+```
