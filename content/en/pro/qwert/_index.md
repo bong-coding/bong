@@ -3,155 +3,126 @@ title: Saramin Crawling
 date: 2024-11-30
 ---
 
-## https://github.com/bong-coding/server.git
+## 🔗 https://github.com/bong-coding/server.git
 
-### This project is a RESTful API for a job information platform developed using **Node.js** and **Express.js**, which crawls job information. It uses **MongoDB** as the database, provides authentication with **JWT**, and documents the API using **Swagger**. The project is deployed on a Jeonbuk National University cloud server.
-
----
-
-## Ⅰ) Tech Stack
-
-- **Javascript**
-- **Express.js**
-- **Node.js**
-- **MongoDB**
+**A RESTful API job platform built with Node.js and Express.js, featuring web crawling, JWT-based authentication, MongoDB integration, and Swagger documentation.  
+Deployed on Jeonbuk National University's cloud server.**
 
 ---
 
-## Ⅱ) Key Features
+# 📄 Saramin API
 
-### REST API Development
-- **Basic CRUD Features**: Provides Create, Read, Update, and Delete operations for all resources.
+A Node.js-based REST API server that crawls job postings from the Saramin website and provides core functionalities like authentication, job management, application tracking, and bookmark support.
 
-### User Management API (`/auth`):
-1. **User Registration (POST /auth/register)**:
-   - Email format validation.
-   - Password encryption.
-   - Duplicate user check.
-   - Saves user information.
-2. **Login (POST /auth/login)**:
-   - User authentication.
-   - Issues JWT tokens.
-   - Saves login history.
-   - Handles errors on login failure.
-3. **Edit User Profile (PUT /auth/profile)**:
-   - Applies authentication middleware.
-   - Enables password change and profile updates.
-4. **View User Profile (GET /auth/profile)**:
-   - Provides authenticated user's profile information.
-5. **Delete Account (DELETE /auth/profile)**:
-   - Deletes the authenticated user's account.
+> Built using Express.js, MongoDB, JWT, Swagger, and HTTPS for a secure and testable API experience.
 
 ---
 
-### Job Posting API (`/jobs`):
-1. **List Job Postings (GET /jobs)**:
-   - Implements pagination (default page size: 20).
-   - Supports search and filtering features.
-2. **View Job Details (GET /jobs/:id)**:
-   - Provides detailed job information.
-   - Includes a feature to increase the view count.
+## ✔️ Project Highlights
+
+- Backend server built with **Node.js + Express.js**
+- Data storage using **MongoDB Compass**
+- User authentication with **JWT**
+- Web crawling with **Cheerio + Axios**
+- API documentation and testing via **Swagger UI**
+- Secure server deployment with **HTTPS (SSL certificate)**
 
 ---
 
-### Application Management API (`/applications`):
-1. **Apply for a Job (POST /applications)**:
-   - Verifies authentication.
-   - Checks for duplicate applications.
-   - Saves application information.
-2. **View Application History (GET /applications)**:
-   - Displays application history for the user.
-   - Supports filtering by status and sorting by date.
-3. **Cancel Application (DELETE /applications/:id)**:
-   - Verifies authentication.
-   - Checks if cancellation is allowed.
-   - Updates the application status.
+## 🚀 Core Features
+
+### 👤 Auth API (`/auth`)
+- `POST /auth/register`: Register a user (email format check, password encryption, duplicate prevention)
+- `POST /auth/login`: Login and receive JWT tokens
+- `GET /auth/profile`: Retrieve authenticated user info
+- `PUT /auth/profile`: Update user info (including password)
+- `DELETE /auth/profile`: Delete user account
 
 ---
 
-### Bookmark API (`/bookmarks`):
-1. **Add/Remove Bookmarks (POST /bookmarks)**:
-   - Verifies authentication.
-   - Toggles bookmark addition or removal.
-2. **List Bookmarks (GET /bookmarks)**:
-   - Displays the user's bookmarked job postings.
-   - Includes pagination and sorting by the latest entries.
+### 📄 Job API (`/jobs`)
+- `GET /jobs`: List jobs with search, filtering, and pagination
+- `GET /jobs/:id`: Retrieve detailed job info and increase view count
 
 ---
 
-## Ⅲ) Authentication and Security Implementation
-
-### JWT-Based Authentication:
-- **Access Token**:
-  - Issues an access token during login.
-  - Validates tokens using middleware.
-- **Refresh Token**:
-  - Issues a refresh token during login.
-  - Implements token renewal through a dedicated endpoint.
-
-### Security Middleware:
-1. **Authentication Middleware**:
-   - Controls access to protected routes.
-2. **Input Validation**:
-   - Validates input data using `express-validator`.
-3. **Rate Limiting**:
-   - Limits API request rates using `express-rate-limit`.
-
-### Additional Security Enhancements:
-1. **Helmet**:
-   - Configures HTTP headers for enhanced security.
-2. **CORS Settings**:
-   - Controls cross-origin resource sharing.
+### 📝 Application API (`/applications`)
+- `POST /applications`: Submit a job application (with duplicate check)
+- `GET /applications`: View application history (with filter/sort)
+- `DELETE /applications/:id`: Cancel an application (with status validation)
 
 ---
 
-## Ⅳ) Key Endpoints
-
-### a. User Management API (`/auth`)
-- **User Registration (POST /auth/register)**:
-  - Validates email format.
-  - Encrypts passwords.
-  - Checks for duplicate users.
-  - Saves user information.
-- **Login (POST /auth/login)**:
-  - Authenticates users and issues JWT tokens.
-  - Handles errors for failed login attempts.
-- **Edit Profile (PUT /auth/profile)**:
-  - Updates passwords and profile information after authentication.
-- **View Profile (GET /auth/profile)**:
-  - Retrieves authenticated user information.
-- **Delete Account (DELETE /auth/profile)**:
-  - Deletes the authenticated user's account.
+### 🌟 Bookmark API (`/bookmarks`)
+- `POST /bookmarks`: Toggle bookmark on/off for a job
+- `GET /bookmarks`: Get user's bookmarked jobs (sorted and paginated)
 
 ---
 
-### b. Job Posting API (`/jobs`)
-- **List Job Postings (GET /jobs)**:
-  - Implements pagination (default page size: 20).
-  - Provides search and filtering functionality.
-- **View Job Details (GET /jobs/:id)**:
-  - Displays detailed job posting information.
-  - Increments the view count.
+## 🔐 Authentication & Security
+
+- **JWT Auth**
+  - Access & Refresh token generation
+  - Route protection for authorized access
+- **Security Middleware**
+  - `helmet`: Sets HTTP headers for security
+  - `cors`: Controls CORS policy
+  - `express-validator`: Validates input data
+  - `express-rate-limit`: Throttles excessive requests
 
 ---
 
-### c. Application Management API (`/applications`)
-- **Apply for a Job (POST /applications)**:
-  - Verifies authentication and prevents duplicate applications.
-  - Saves application details.
-- **View Application History (GET /applications)**:
-  - Displays application history for the user.
-  - Includes filtering by status and sorting by date.
-- **Cancel Application (DELETE /applications/:id)**:
-  - Verifies authentication and checks cancellation eligibility.
-  - Updates the application status.
+## 🛠 Setup & Execution
+
+### 1. Install dependencies
+```bash
+npm install
+```
+###2. Execution
+- Run the crawler
+```bash
+npm run crawl
+```
+### 3. Start the HTTPS server
+```bash
+sudo node app.js
+```
+### Generate a test SSL certificate
+```bash
+openssl req -nodes -new -x509 -keyout server.key -out server.crt -days 365
+```
+Set file paths in app.js:
+```javascript
+const key = fs.readFileSync('/home/ubuntu/key.pem');
+const cert = fs.readFileSync('/home/ubuntu/cert.pem');
+```
+---
+## 🧾 Core Libraries
+
+| Purpose             | Libraries                                |
+|---------------------|-------------------------------------------|
+| Server Framework    | `express`                                 |
+| Web Crawling        | `axios`, `cheerio`                        |
+| Authentication      | `jsonwebtoken`, `bcryptjs`               |
+| Security            | `helmet`, `cors`, `express-rate-limit`   |
+| Database            | `mongoose`                                |
+| API Documentation   | `swagger-ui-express`                      |
+| Env Configuration   | `dotenv`                                  |
+| Logging             | `winston`                                 |
+
 
 ---
+### Project Structure
+```bash
+├── app.js              # Main server entry (includes HTTPS setup)
+├── routes/             # Route modules
+├── controllers/        # Request handlers
+├── models/             # Mongoose schemas
+├── middlewares/        # Auth & security middlewares
+├── utils/              # Utility functions
+├── crawlers/           # Saramin crawler implementation
+├── config/             # Swagger & environment config
+├── .env                # Environment variable file
 
-### d. Bookmark API (`/bookmarks`)
-- **Add/Remove Bookmarks (POST /bookmarks)**:
-  - Toggles between adding or removing bookmarks.
-- **List Bookmarks (GET /bookmarks)**:
-  - Displays the user's bookmarks with pagination and sorting.
 
---- 
+```

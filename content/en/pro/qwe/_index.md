@@ -1,53 +1,66 @@
 ---
-title: Locker Management Using Sockets
+title: Socket-Based Locker Management System
 date: 2021-12-10
 ---
 
-### https://github.com/bong-coding/socketlocker_manage.git
+### 🔗 https://github.com/bong-coding/socketlocker_manage.git
 
-# Locker Management Socket Program
-This is an example of a **server/client architecture** for managing multiple lockers using **socket communication**.  
-The client operates like a kiosk interface, selecting menu options to send requests to the server. The server uses files (lock files) to store, update, and retrieve locker statuses (passwords, items, etc.).
+# Socket Locker Management Program
+A client-server application using **Unix domain sockets** to manage multiple lockers.  
+The client acts like a kiosk, allowing users to select menu options and send requests to the server.  
+The server handles each locker’s status (password, stored item, availability) through a file-based system.
 
 ---
 
-## File Structure
+## 📁 File Descriptions
 
 ### `client.c`
-- Connects to the server using a Unix domain socket (`AF_UNIX`).
-- Provides menu options (1–6) to request **locker status**, **registration**, **item storage**, **item retrieval**, and **password reset (admin call)**.
-- Receives and displays the server's responses.
+- Connects to the server via **Unix Domain Socket (`AF_UNIX`)**
+- Presents a menu (1 to 6) for actions such as:
+  - **Check locker status**
+  - **Register a locker**
+  - **Store an item**
+  - **Retrieve an item**
+  - **Reset password (admin action)**
+- Displays server responses in the terminal
 
 ### `server.c`
-- Implements the **Unix domain socket server**.
-- On execution, it prompts the user for the number of lockers, initializes a structure array (`loc* locker_array`), and saves the data to a file.
-- When a client connects, the server forks a new process to handle requests.
-- Reads and writes locker data (number/password/status/items) to the `lock_information` file.
+- Implements a **Unix domain socket server**
+- On startup:
+  - Prompts the admin for the number of lockers
+  - Initializes a structure array (`loc* locker_array`) for lockers
+  - Saves the state to a file (`lock_information`)
+- On client connection:
+  - Uses `fork()` to create a separate process per client
+  - Processes requests: validate password, register lockers, store/retrieve items, admin reset
+  - Updates the locker file with changes (`loc_updatefile()` or `save_all()`)
 
 ---
 
-## Operational Flow
+## 🔁 Workflow
 
-### 1. Server Execution (`server.c`)
-1. The server enters a listening state via `socket(AF_UNIX, SOCK_STREAM, 0)` → `bind()` → `listen()`.
-2. Prompts the user to input the **number of lockers**, initializes the `locker_array` via `reset()`, and saves everything to the `lock_information` file using `save_all()`.
-3. Enters an **infinite loop** and waits for client connections using `accept()`.
-4. On connection, forks a child process to communicate with the client:
-   - Handles tasks such as password verification, locker registration, item storage/retrieval, and admin calls (password reset).
-   - Updates the locker information in the file (`loc_updatefile()` or `save_all()`).
-   - Terminates the child process when the client disconnects.
+### 1. Running the Server (`server.c`)
+1. Initializes socket: `socket(AF_UNIX, SOCK_STREAM, 0)` → `bind()` → `listen()`
+2. Admin is prompted to enter the **number of lockers**
+3. Locker data is initialized (`reset()`) and saved to `lock_information` (`save_all()`)
+4. Enters a **loop** waiting for client connections (`accept()`)
+5. On client connection:
+   - Creates a child process using `fork()`
+   - Handles the client's request:
+     - Locker registration
+     - Password check
+     - Store or retrieve items
+     - Admin reset (password reset)
+   - Updates locker file accordingly
+   - Ends child process when client disconnects
 
-### 2. Client Execution (`client.c`)
-1. Creates a Unix domain socket with `socket(AF_UNIX, SOCK_STREAM, 0)` and connects to the server using `connect()`.
-2. Receives the **number of lockers** (`count`) from the server and stores it.
-3. Displays the following menu:  
-   **1.** View locker usage status (`show()`)  
-   **2.** Register a locker (locker number and password setup)  
-   **3.** Store an item (possible if the locker is registered and the password matches)  
-   **4.** Retrieve an item (retrievable if the password matches; sets the locker to “available” again)  
-   **5.** Admin call (e.g., password reset)  
-   **6.** Exit the program  
-4. Sends the selected menu option to the server and inputs any additional required data (locker number, password, item name, etc.).
-5. Receives and displays the server's processing results (success/failure, usage status, etc.).
-
----
+### 2. Running the Client (`client.c`)
+1. Connects to the server with `socket()` + `connect()`
+2. Receives the **number of lockers** from the server
+3. Displays a menu:
+  **1.View locker status**
+   **2.Register locker (choose number & set password)**
+   **3.Store item (requires correct password)**
+   **4.Retrieve item (correct password resets locker to "available")**
+   **5.Admin call (reset password)**
+   **6.Exit program**
