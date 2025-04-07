@@ -21,7 +21,6 @@
 ![theme](https://github.com/user-attachments/assets/1fd9cb2c-19ed-4269-a24d-2a6f13682c97)
 
 ### 3.캘린더
-![cal](https://github.com/user-attachments/assets/7afdca6a-7ae6-4ef3-ae78-540b5f70c34f)
 
 
 # 프로젝트 기간
