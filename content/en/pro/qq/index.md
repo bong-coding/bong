@@ -2,13 +2,12 @@
 title: Pacman AI (In Progress)
 date: 2025-04-02
 ---
-
 ### 🔗 https://github.com/bong-coding/pacman
-
 # Building AI Agents to Control Pacman
 **A hands-on project focused on implementing core AI concepts**
-
 ---
+
+
 
 ## 💡 Key Learning Topics
 
